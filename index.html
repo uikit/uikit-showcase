@@ -1,304 +1,396 @@
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Showcase - UIkit documentation</title>
-		<link rel="shortcut icon" href="../docs/images/favicon.ico" type="image/x-icon">
-		<link rel="apple-touch-icon-precomposed" href="../docs/images/apple-touch-icon.png">
-		<link id="data-uikit-theme" rel="stylesheet" href="../docs/css/uikit.docs.min.css">
-		<link rel="stylesheet" href="../docs/css/docs.css">
-		<script src="../vendor/jquery.js"></script>
-		<script src="../dist/js/uikit.min.js"></script>
-		<script src="../docs/js/docs.js"></script>
-		<style>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Showcase - UIkit documentation</title>
+        <link rel="shortcut icon" href="../docs/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="../docs/images/apple-touch-icon.png">
+        <link id="data-uikit-theme" rel="stylesheet" href="../docs/css/uikit.docs.min.css">
+        <link rel="stylesheet" href="../docs/css/docs.css">
+        <script src="../vendor/jquery.js"></script>
+        <script src="../dist/js/uikit.min.js"></script>
+        <script src="../docs/js/docs.js"></script>
+    </head>
 
-			.tm-showcase-headline {
-				margin-top: 15px;
-				margin-bottom: 10px;
-			}
+    <body class="tm-background">
 
-			.tm-showcase-badge {
-				padding: 0 8px;
-				border: none;
-				background: #f2f2f2;
-				color: #444;
-				font-size: 14px;
-				line-height: 24px;
-				font-weight: normal;
-				text-shadow: none;
-			}
+        <nav class="tm-navbar uk-navbar uk-navbar-attached">
+            <div class="uk-container uk-container-center">
 
-		</style>
-	</head>
+                <a class="uk-navbar-brand uk-hidden-small" href="../index.html"><img class="uk-margin uk-margin-remove" src="../docs/images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
 
-	<body class="tm-background">
+                <ul class="uk-navbar-nav uk-hidden-small">
+                    <li><a href="../docs/documentation_get-started.html">Get Started</a></li>
+                    <li><a href="../docs/components.html">Components</a></li>
+                    <li><a href="../docs/customizer.html">Customizer</a></li>
+                    <li class="uk-active"><a href="index.html">Showcase</a></li>
+                </ul>
 
-		<nav class="tm-navbar uk-navbar uk-navbar-attached">
-			<div class="uk-container uk-container-center">
+                <a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
 
-				<a class="uk-navbar-brand uk-hidden-small" href="../index.html"><img class="uk-margin uk-margin-remove" src="../docs/images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small"><img src="../docs/images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></div>
 
-				<ul class="uk-navbar-nav uk-hidden-small">
-					<li><a href="../docs/documentation_get-started.html">Get Started</a></li>
-					<li><a href="../docs/components.html">Components</a></li>
-					<li><a href="../docs/customizer.html">Customizer</a></li>
-					<li class="uk-active"><a href="index.html">Showcase</a></li>
-				</ul>
+            </div>
+        </nav>
 
-				<a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
 
-				<div class="uk-navbar-brand uk-navbar-center uk-visible-small"><img src="../docs/images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></div>
+        <div class="tm-middle">
+            <div class="uk-container uk-container-center">
 
-			</div>
-		</nav>
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="tm-sidebar uk-width-medium-1-4 uk-hidden-small">
 
-		<div class="tm-middle">
-			<div class="uk-container uk-container-center">
+                        <div class="uk-panel">
+                            <h1>Showcase</h1>
+                            <p class="uk-text-large">A fine collection of websites and themes built with the UIkit framework.</p>
+                        </div>
 
-				<article class="uk-article">
+                        <div class="uk-panel">
+                            <h3 class="uk-panel-title">Suggest a site</h3>
+                            <p>Just send us a tweet with your website or theme.</p>
+                            <p>
+                                <a class="uk-button uk-button-primary uk-button-large" href="https://twitter.com/getuikit"><i class="uk-icon-twitter"></i> @getuikit</a>
+                            </p>
+                        </div>
 
-					<div class="uk-text-center">
+                    </div>
 
-						<h1>Showcase</h1>
+                    <div class="tm-main uk-width-medium-3-4">
 
-						<p class="uk-article-lead">Get familiar with the basic setup and structure of UIkit.</p>
+                        <article class="uk-article">
 
-					</div>
+                            <h1 class="uk-article-title uk-float-left">iOSpirations</h1>
+                            <p class="uk-text-muted uk-float-right">May 18th, 2014</p>
 
-					<ul class="uk-grid" data-uk-grid-margin>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://www.iospirations.com/" title="Visit Website">
-								<div class="uk-overlay">
-									<img src="images/website_iospirations.jpg" width="800" height="600" alt="iospirations.com">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://www.iospirations.com/" title="Visit Website">iospirations.com</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="https://de4emusketier.nl/" title="Visit Website">
-								<div class="uk-overlay">
-									<img src="images/website_de4emusketier.jpg" width="800" height="600" alt="de4emusketier.nl">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="https://de4emusketier.nl/" title="Visit Website">de4emusketier.nl</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://frederiksbergmurer.dk/" title="Visit Website">
-								<div class="uk-overlay">
-									<img src="images/website_frederiksbergmurer.jpg" width="800" height="600" alt="frederiksbergmurer.dk">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://frederiksbergmurer.dk/" title="Visit Website">frederiksbergmurer.dk</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/moustache/" title="View Theme">
-								<div class="uk-overlay">
-									<img src="images/theme_moustache.jpg" width="800" height="600" alt="Moustache Theme">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://yoocore.com/demo/themes/joomla/2013/moustache/" title="View Theme">Moustache Theme</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/square/" title="View Theme">
-								<div class="uk-overlay">
-									<img src="images/theme_square.jpg" width="800" height="600" alt="Square Theme">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://yoocore.com/demo/themes/joomla/2013/square/" title="View Theme">Square Theme</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/capture/" title="View Theme">
-								<div class="uk-overlay">
-									<img src="images/theme_capture.jpg" width="800" height="600" alt="Capture Theme">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://yoocore.com/demo/themes/joomla/2013/capture/" title="View Theme">Capture Theme</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/moreno/" title="View Theme">
-								<div class="uk-overlay">
-									<img src="images/theme_moreno.jpg" width="800" height="600" alt="Moreno Theme">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://yoocore.com/demo/themes/joomla/2013/moreno/" title="View Theme">Moreno Theme</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/lava/" title="View Theme">
-								<div class="uk-overlay">
-									<img src="images/theme_lava.jpg" width="800" height="600" alt="Lava Theme">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://yoocore.com/demo/themes/joomla/2013/lava/" title="View Theme">Lava Theme</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
-						<li class="uk-width-1-3 uk-medium-width-1-2">
-							<a class="uk-thumbnail uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/nano3/" title="View Theme">
-								<div class="uk-overlay">
-									<img src="images/theme_nano3.jpg" width="800" height="600" alt="Nano3 Theme">
-									<div class="uk-overlay-area"></div>
-								</div>
-							</a>
-							<h3 class="tm-showcase-headline">
-								<a href="http://yoocore.com/demo/themes/joomla/2013/nano3/" title="View Theme">Nano3 Theme</a>
-							</h3>
-							<span class="uk-badge tm-showcase-badge">Website</span> <span class="uk-badge tm-showcase-badge">Flat</span> <span class="uk-badge tm-showcase-badge">Colorful</span>
-						</li>
+                            <a class="uk-overlay-toggle" href="http://www.iospirations.com/" title="Visit Website">
+                                <div class="uk-overlay">
+                                    <img src="images/website_iospirations.jpg" width="1600" height="1200" alt="iospirations.com">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
 
-					</ul>
+                        </article>
 
-				</article>
+                        <article class="uk-article">
 
-			</div>
-		</div>
+                            <h1 class="uk-article-title uk-float-left">De 4e Musketier</h1>
+                            <p class="uk-text-muted uk-float-right">May 18th, 2014</p>
 
-		<div class="tm-section tm-section-color-2 tm-section-colored">
-			<div class="uk-container uk-container-center uk-text-center">
+                            <a class="uk-overlay-toggle" href="https://de4emusketier.nl/" title="Visit Website">
+                                <div class="uk-overlay">
+                                    <img src="images/website_de4emusketier.jpg" width="1600" height="1200" alt="de4emusketier.nl">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
 
-				<h1 class="uk-heading-large">Get involved</h1>
+                        </article>
 
-				<p class="uk-text-large">Just send us a tweet with your website or theme<br class="uk-hidden-small">
-You see, in this world there’s two kinds of people, my friend.</p>
+                        <article class="uk-article">
 
-				<p>
-					<a class="uk-button tm-button-download" href="https://twitter.com/getuikit"><i class="uk-icon-twitter"></i> @getuikit</a>
-				</p>
+                            <h1 class="uk-article-title uk-float-left">Brandt Kristensen</h1>
+                            <p class="uk-text-muted uk-float-right">May 18th, 2014</p>
 
-			</div>
-		</div>
+                            <a class="uk-overlay-toggle" href="http://frederiksbergmurer.dk/" title="Visit Website">
+                                <div class="uk-overlay">
+                                    <img src="images/website_frederiksbergmurer.jpg" width="1600" height="1200" alt="frederiksbergmurer.dk">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
 
-		<div class="tm-footer">
-			<div class="uk-container uk-container-center uk-text-center">
+                        </article>
 
-				<ul class="uk-subnav uk-subnav-line">
-					<li><a href="http://github.com/uikit/uikit">GitHub</a></li>
-					<li><a href="http://github.com/uikit/uikit/issues">Issues</a></li>
-					<li><a href="http://github.com/uikit/uikit/blob/master/CHANGELOG.md">Changelog</a></li>
-					<li><a href="https://twitter.com/getuikit">Twitter</a></li>
-				</ul>
+                        <article class="uk-article">
 
-				<div class="uk-panel">
-					<p>Made by <a href="http://www.yootheme.com">YOOtheme</a> with love and caffeine.<br>Licensed under <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
-					<a href="../index.html"><img src="../docs/images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
-				</div>
+                            <h1 class="uk-article-title uk-float-left">Nite Theme</h1>
+                            <p class="uk-text-muted uk-float-right">June, 2014</p>
 
-			</div>
-		</div>
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/nite/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_nite.jpg" width="1600" height="1200" alt="Nite Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
 
-		<div id="tm-offcanvas" class="uk-offcanvas">
+                        </article>
 
-			<div class="uk-offcanvas-bar">
+                        <article class="uk-article">
 
-				<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
-					<li class="uk-parent uk-active"><a href="#">Documentation</a>
-						<ul class="uk-nav-sub">
-							<li><a href="../docs/documentation_get-started.html">Get started</a></li>
-							<li><a href="../docs/documentation_how-to-customize.html">How to customize</a></li>
-							<li><a href="../docs/components.html">Components</a></li>
-							<li><a href="../docs/documentation_project-structure.html">Project structure</a></li>
-							<li><a href="../docs/documentation_variables.html">Variables</a></li>
-							<li><a href="../docs/documentation_create-a-theme.html">Create a theme</a></li>
-							<li><a href="../docs/documentation_customizer-json.html">Customizer.json</a></li>
-						</ul>
-					</li>
-					<li class="uk-nav-header">Components</li>
-					<li class="uk-parent"><a href="#"><i class="uk-icon-wrench"></i> Defaults</a>
-						<ul class="uk-nav-sub">
-							<li><a href="../docs/normalize.html">Normalize</a></li>
-							<li><a href="../docs/base.html">Base</a></li>
-							<li><a href="../docs/print.html">Print</a></li>
-						</ul>
-					</li>
-					<li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
-						<ul class="uk-nav-sub">
-							<li><a href="../docs/grid.html">Grid</a></li>
-							<li><a href="../docs/panel.html">Panel</a></li>
-							<li><a href="../docs/article.html">Article</a></li>
-							<li><a href="../docs/comment.html">Comment</a></li>
-							<li><a href="../docs/utility.html">Utility</a></li>
-						</ul>
-					</li>
-					<li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
-						<ul class="uk-nav-sub">
-							<li><a href="../docs/nav.html">Nav</a></li>
-							<li><a href="../docs/navbar.html">Navbar</a></li>
-							<li><a href="../docs/subnav.html">Subnav</a></li>
-							<li><a href="../docs/breadcrumb.html">Breadcrumb</a></li>
-							<li><a href="../docs/pagination.html">Pagination</a></li>
-							<li><a href="../docs/tab.html">Tab</a></li>
-						</ul>
-					</li>
-					<li class="uk-parent"><a href="#"><i class="uk-icon-check"></i> Elements</a>
-						<ul class="uk-nav-sub">
-							<li><a href="../docs/list.html">List</a></li>
-							<li><a href="../docs/description-list.html">Description list</a></li>
-							<li><a href="../docs/table.html">Table</a></li>
-							<li><a href="../docs/form.html">Form</a></li>
-						</ul>
-					</li>
-					<li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
-						<ul class="uk-nav-sub">
-							<li><a href="../docs/button.html">Button</a></li>
-							<li><a href="../docs/icon.html">Icon</a></li>
-							<li><a href="../docs/close.html">Close</a></li>
-							<li><a href="../docs/badge.html">Badge</a></li>
-							<li><a href="../docs/alert.html">Alert</a></li>
-							<li><a href="../docs/thumbnail.html">Thumbnail</a></li>
-							<li><a href="../docs/overlay.html">Overlay</a></li>
-							<li><a href="../docs/progress.html">Progress</a></li>
-							<li><a href="../docs/search.html">Search</a></li>
-							<li><a href="../docs/text.html">Text</a></li>
-							<li><a href="../docs/animation.html">Animation</a></li>
-						</ul>
-					</li>
-					<li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
-						<ul class="uk-nav-sub">
-							<li><a href="../docs/dropdown.html">Dropdown</a></li>
-							<li><a href="../docs/modal.html">Modal</a></li>
-							<li><a href="../docs/offcanvas.html">Off-canvas</a></li>
-							<li><a href="../docs/switcher.html">Switcher</a></li>
-							<li><a href="../docs/toggle.html">Toggle</a></li>
-							<li><a href="../docs/scrollspy.html">Scrollspy</a></li>
-							<li><a href="../docs/smooth-scroll.html">Smooth scroll</a></li>
-						</ul>
-					</li>
-				</ul>
+                            <h1 class="uk-article-title uk-float-left">Everest Theme</h1>
+                            <p class="uk-text-muted uk-float-right">May, 2014</p>
 
-			</div>
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/everest/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_everest.jpg" width="1600" height="1200" alt="Everest Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
 
-		</div>
+                        </article>
 
-	</body>
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Digit Theme</h1>
+                            <p class="uk-text-muted uk-float-right">April, 2014</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/digit/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_digit.jpg" width="1600" height="1200" alt="Digit Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Frequency Theme</h1>
+                            <p class="uk-text-muted uk-float-right">March, 2014</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/frequency/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_frequency.jpg" width="1600" height="1200" alt="Frequency Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Avenue Theme</h1>
+                            <p class="uk-text-muted uk-float-right">February, 2014</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/avenue/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_avenue.jpg" width="1600" height="1200" alt="Avenue Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Master 2 Theme</h1>
+                            <p class="uk-text-muted uk-float-right">January, 2014</p>
+
+                            <a class="uk-overlay-toggle" href="http://www.yootheme.com/themes/downloads/download" title="Download Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_master2.jpg" width="1600" height="1200" alt="Master 2 Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Vida Theme</h1>
+                            <p class="uk-text-muted uk-float-right">January, 2014</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/vida/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_vida.jpg" width="1600" height="1200" alt="Moustache Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Moustache Theme</h1>
+                            <p class="uk-text-muted uk-float-right">December, 2013</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/moustache/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_moustache.jpg" width="1600" height="1200" alt="Moustache Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Square Theme</h1>
+                            <p class="uk-text-muted uk-float-right">November, 2013</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/square/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_square.jpg" width="1600" height="1200" alt="Square Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Capture Theme</h1>
+                            <p class="uk-text-muted uk-float-right">October, 2013</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/capture/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_capture.jpg" width="1600" height="1200" alt="Capture Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Moreno Theme</h1>
+                            <p class="uk-text-muted uk-float-right">September, 2013</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/moreno/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_moreno.jpg" width="1600" height="1200" alt="Moreno Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Lava Theme</h1>
+                            <p class="uk-text-muted uk-float-right">August, 2013</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/lava/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_lava.jpg" width="1600" height="1200" alt="Lava Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="uk-article">
+
+                            <h1 class="uk-article-title uk-float-left">Nano 3 Theme</h1>
+                            <p class="uk-text-muted uk-float-right">July, 2013</p>
+
+                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/nano3/" title="View Theme">
+                                <div class="uk-overlay">
+                                    <img src="images/theme_nano3.jpg" width="1600" height="1200" alt="Nano3 Theme">
+                                    <div class="uk-overlay-area"></div>
+                                </div>
+                            </a>
+
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="tm-footer">
+            <div class="uk-container uk-container-center uk-text-center">
+
+                <ul class="uk-subnav uk-subnav-line">
+                    <li><a href="http://github.com/uikit/uikit">GitHub</a></li>
+                    <li><a href="http://github.com/uikit/uikit/issues">Issues</a></li>
+                    <li><a href="http://github.com/uikit/uikit/blob/master/CHANGELOG.md">Changelog</a></li>
+                    <li><a href="https://twitter.com/getuikit">Twitter</a></li>
+                </ul>
+
+                <div class="uk-panel">
+                    <p>Made by <a href="http://www.yootheme.com">YOOtheme</a> with love and caffeine.<br>Licensed under <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
+                    <a href="../index.html"><img src="../docs/images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="tm-offcanvas" class="uk-offcanvas">
+
+            <div class="uk-offcanvas-bar">
+
+                <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
+                    <li class="uk-parent uk-active"><a href="#">Documentation</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="../docs/documentation_get-started.html">Get started</a></li>
+                            <li><a href="../docs/documentation_how-to-customize.html">How to customize</a></li>
+                            <li><a href="../docs/components.html">Components</a></li>
+                            <li><a href="../docs/documentation_project-structure.html">Project structure</a></li>
+                            <li><a href="../docs/documentation_variables.html">Variables</a></li>
+                            <li><a href="../docs/documentation_create-a-theme.html">Create a theme</a></li>
+                            <li><a href="../docs/documentation_customizer-json.html">Customizer.json</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-header">Components</li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-wrench"></i> Defaults</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="../docs/normalize.html">Normalize</a></li>
+                            <li><a href="../docs/base.html">Base</a></li>
+                            <li><a href="../docs/print.html">Print</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="../docs/grid.html">Grid</a></li>
+                            <li><a href="../docs/panel.html">Panel</a></li>
+                            <li><a href="../docs/article.html">Article</a></li>
+                            <li><a href="../docs/comment.html">Comment</a></li>
+                            <li><a href="../docs/utility.html">Utility</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="../docs/nav.html">Nav</a></li>
+                            <li><a href="../docs/navbar.html">Navbar</a></li>
+                            <li><a href="../docs/subnav.html">Subnav</a></li>
+                            <li><a href="../docs/breadcrumb.html">Breadcrumb</a></li>
+                            <li><a href="../docs/pagination.html">Pagination</a></li>
+                            <li><a href="../docs/tab.html">Tab</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-check"></i> Elements</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="../docs/list.html">List</a></li>
+                            <li><a href="../docs/description-list.html">Description list</a></li>
+                            <li><a href="../docs/table.html">Table</a></li>
+                            <li><a href="../docs/form.html">Form</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="../docs/button.html">Button</a></li>
+                            <li><a href="../docs/icon.html">Icon</a></li>
+                            <li><a href="../docs/close.html">Close</a></li>
+                            <li><a href="../docs/badge.html">Badge</a></li>
+                            <li><a href="../docs/alert.html">Alert</a></li>
+                            <li><a href="../docs/thumbnail.html">Thumbnail</a></li>
+                            <li><a href="../docs/overlay.html">Overlay</a></li>
+                            <li><a href="../docs/progress.html">Progress</a></li>
+                            <li><a href="../docs/search.html">Search</a></li>
+                            <li><a href="../docs/text.html">Text</a></li>
+                            <li><a href="../docs/animation.html">Animation</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="../docs/dropdown.html">Dropdown</a></li>
+                            <li><a href="../docs/modal.html">Modal</a></li>
+                            <li><a href="../docs/offcanvas.html">Off-canvas</a></li>
+                            <li><a href="../docs/switcher.html">Switcher</a></li>
+                            <li><a href="../docs/toggle.html">Toggle</a></li>
+                            <li><a href="../docs/scrollspy.html">Scrollspy</a></li>
+                            <li><a href="../docs/smooth-scroll.html">Smooth scroll</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </body>
 </html>
