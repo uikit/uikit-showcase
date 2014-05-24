@@ -12,6 +12,7 @@
         <script src="../vendor/jquery.js"></script>
         <script src="../dist/js/uikit.min.js"></script>
         <script src="../docs/js/docs.js"></script>
+        <script src="../dist/js/addons/sticky.js"></script>
     </head>
 
     <body class="tm-background">
@@ -42,17 +43,13 @@
                 <div class="uk-grid" data-uk-grid-margin>
                     <div class="tm-sidebar uk-width-medium-1-4 uk-hidden-small">
 
-                        <div class="uk-panel">
+                        <div class="uk-panel" data-uk-sticky="{top:50}">
                             <h1>Showcase</h1>
                             <p class="uk-text-large">A fine collection of websites and themes built with the UIkit framework.</p>
-                        </div>
-
-                        <div class="uk-panel">
-                            <h3 class="uk-panel-title">Suggest a site</h3>
-                            <p>Just send us a tweet with your website or theme.</p>
-                            <p>
-                                <a class="uk-button uk-button-primary uk-button-large" href="https://twitter.com/getuikit"><i class="uk-icon-twitter"></i> @getuikit</a>
-                            </p>
+                            <hr>
+                            <h2>Suggest a site</h2>
+                            <p>You created something awesome with UIkit? Let us know :)</p>
+                            <p><a class="uk-button uk-button-primary uk-button-large" href="mailto:info@getuikit.com">Send Mail</a></p>
                         </div>
 
                     </div>
@@ -60,257 +57,166 @@
                     <div class="tm-main uk-width-medium-3-4">
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Nite Theme</h1>
                             <p class="uk-text-muted uk-float-right">June, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/nite/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_nite.jpg" width="1600" height="1200" alt="Nite Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/nite">
+                                <img src="images/yootheme-nite.jpg" width="1600" height="1200" alt="Nite Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Everest Theme</h1>
                             <p class="uk-text-muted uk-float-right">May, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/everest/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_everest.jpg" width="1600" height="1200" alt="Everest Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/everest">
+                                <img src="images/yootheme-everest.jpg" width="1600" height="1200" alt="Everest Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">iOSpirations</h1>
-                            <p class="uk-text-muted uk-float-right">December, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://www.iospirations.com/" title="Visit Website">
-                                <div class="uk-overlay">
-                                    <img src="images/website_iospirations.jpg" width="1600" height="1200" alt="iospirations.com">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <p class="uk-text-muted uk-float-right">May, 2014</p>
+                            <a class="uk-overlay" href="http://www.iospirations.com">
+                                <img src="images/iospirations.jpg" width="1600" height="1200" alt="iOSpirations">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Digit Theme</h1>
                             <p class="uk-text-muted uk-float-right">April, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/digit/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_digit.jpg" width="1600" height="1200" alt="Digit Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/digit">
+                                <img src="images/yootheme-digit.jpg" width="1600" height="1200" alt="Digit Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
-
-
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Frequency Theme</h1>
                             <p class="uk-text-muted uk-float-right">March, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/frequency/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_frequency.jpg" width="1600" height="1200" alt="Frequency Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/frequency">
+                                <img src="images/yootheme-frequency.jpg" width="1600" height="1200" alt="Frequency Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
-                            <h1 class="uk-article-title uk-float-left">D-Host</h1>
-                            <p class="uk-text-muted uk-float-right">March, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://desainwebshost.com/" title="View Website">
-                                <div class="uk-overlay">
-                                    <img src="images/website_desainwebshost.jpg" width="1600" height="1200" alt="desainwebshost.com">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
-                            </a>
-
-                        </article>
-
-                        <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Avenue Theme</h1>
                             <p class="uk-text-muted uk-float-right">February, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/avenue/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_avenue.jpg" width="1600" height="1200" alt="Avenue Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/avenue">
+                                <img src="images/yootheme-avenue.jpg" width="1600" height="1200" alt="Avenue Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
 
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">citybase Apartments</h1>
                             <p class="uk-text-muted uk-float-right">January, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="https://www.citybaseapartments.com/" title="View Website">
-                                <div class="uk-overlay">
-                                    <img src="images/website_citybaseapartments.jpg" width="1600" height="1200" alt="citybaseapartments.com">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                                <a class="uk-overlay" href="https://www.citybaseapartments.com">
+                                <img src="images/citybaseapartments.jpg" width="1600" height="1200" alt="citybase Apartments">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Vida Theme</h1>
                             <p class="uk-text-muted uk-float-right">January, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2014/vida/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_vida.jpg" width="1600" height="1200" alt="Moustache Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/vida">
+                                <img src="images/yootheme-vida.jpg" width="1600" height="1200" alt="Moustache Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">JFeWo</h1>
-                            <p class="uk-text-muted uk-float-right">May, 2014</p>
-
-                            <a class="uk-overlay-toggle" href="http://www.jfewo.de/" title="View Website">
-                                <div class="uk-overlay">
-                                    <img src="images/website_jfewo.jpg" width="1600" height="1200" alt="jfewo.de">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <p class="uk-text-muted uk-float-right">January, 2014</p>
+                            <a class="uk-overlay" href="http://www.jfewo.de">
+                                <img src="images/jfewo.jpg" width="1600" height="1200" alt="JFeWo">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Moustache Theme</h1>
                             <p class="uk-text-muted uk-float-right">December, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/moustache/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_moustache.jpg" width="1600" height="1200" alt="Moustache Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/moustache">
+                                <img src="images/yootheme-moustache.jpg" width="1600" height="1200" alt="Moustache Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">De 4e Musketier</h1>
                             <p class="uk-text-muted uk-float-right">December, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="https://de4emusketier.nl/" title="Visit Website">
-                                <div class="uk-overlay">
-                                    <img src="images/website_de4emusketier.jpg" width="1600" height="1200" alt="de4emusketier.nl">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="https://de4emusketier.nl">
+                                <img src="images/de4emusketier.jpg" width="1600" height="1200" alt="De 4e Musketier">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Square Theme</h1>
                             <p class="uk-text-muted uk-float-right">November, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/square/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_square.jpg" width="1600" height="1200" alt="Square Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/square">
+                                <img src="images/yootheme-square.jpg" width="1600" height="1200" alt="Square Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Capture Theme</h1>
                             <p class="uk-text-muted uk-float-right">October, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/capture/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_capture.jpg" width="1600" height="1200" alt="Capture Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/capture">
+                                <img src="images/yootheme-capture.jpg" width="1600" height="1200" alt="Capture Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
+                            <h1 class="uk-article-title uk-float-left">D-Host</h1>
+                            <p class="uk-text-muted uk-float-right">October, 2013</p>
+                            <a class="uk-overlay" href="http://desainwebshost.com">
+                                <img src="images/desainwebshost.jpg" width="1600" height="1200" alt="D-Host">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
+                            </a>
+                        </article>
 
+                        <article class="uk-article">
                             <h1 class="uk-article-title uk-float-left">Moreno Theme</h1>
                             <p class="uk-text-muted uk-float-right">September, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/moreno/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_moreno.jpg" width="1600" height="1200" alt="Moreno Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/moreno">
+                                <img src="images/yootheme-moreno.jpg" width="1600" height="1200" alt="Moreno Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Lava Theme</h1>
                             <p class="uk-text-muted uk-float-right">August, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/lava/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_lava.jpg" width="1600" height="1200" alt="Lava Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/lava">
+                                <img src="images/yootheme-lava.jpg" width="1600" height="1200" alt="Lava Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Brandt Kristensen</h1>
                             <p class="uk-text-muted uk-float-right">July, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://frederiksbergmurer.dk/" title="Visit Website">
-                                <div class="uk-overlay">
-                                    <img src="images/website_frederiksbergmurer.jpg" width="1600" height="1200" alt="frederiksbergmurer.dk">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                                <a class="uk-overlay" href="http://frederiksbergmurer.dk">
+                                <img src="images/frederiksbergmurer.jpg" width="1600" height="1200" alt="Brandt Kristensen">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                         <article class="uk-article">
-
                             <h1 class="uk-article-title uk-float-left">Nano 3 Theme</h1>
                             <p class="uk-text-muted uk-float-right">July, 2013</p>
-
-                            <a class="uk-overlay-toggle" href="http://yoocore.com/demo/themes/joomla/2013/nano3/" title="View Theme">
-                                <div class="uk-overlay">
-                                    <img src="images/theme_nano3.jpg" width="1600" height="1200" alt="Nano3 Theme">
-                                    <div class="uk-overlay-area"></div>
-                                </div>
+                            <a class="uk-overlay" href="http://www.yootheme.com/demo/wordpress/nano3">
+                                <img src="images/yootheme-nano3.jpg" width="1600" height="1200" alt="Nano3 Theme">
+                                <div class="uk-overlay-area tm-overlay-area"></div>
                             </a>
-
                         </article>
 
                     </div>
